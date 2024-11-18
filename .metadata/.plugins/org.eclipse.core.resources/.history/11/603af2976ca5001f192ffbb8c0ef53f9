@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module javaEX {
+	requires java.desktop;
+}

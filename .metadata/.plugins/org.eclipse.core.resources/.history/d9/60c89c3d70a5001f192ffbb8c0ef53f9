@@ -1,0 +1,10 @@
+package ThreadEx6;
+
+public class MultiThreadMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

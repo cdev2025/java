@@ -1,0 +1,5 @@
+package ThreadEx5;
+
+public class BeepThread extends Thread {
+
+}
