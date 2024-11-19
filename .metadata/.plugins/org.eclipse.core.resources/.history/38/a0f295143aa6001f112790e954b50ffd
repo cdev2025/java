@@ -1,0 +1,11 @@
+package MapEx;
+
+import java.util.*;
+
+public class HashMapEx {
+
+	public static void main(String[] args) {
+		Map<String, String> map = new HashMap<String, String>();
+	}
+
+}
