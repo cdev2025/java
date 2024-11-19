@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="interfaceEx.MemberDAO"/>
+    <fullyQualifiedTypeName name="interfaceEx.MemberDTO"/>
+    <fullyQualifiedTypeName name="interfaceEx.MemberController"/>
+    <fullyQualifiedTypeName name="java.awt.Toolkit"/>
+    <fullyQualifiedTypeName name="ThreadEx2.BeepTask"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="ThreadEx5.BeepThread"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="ThreadEx6.MultiThread"/>
+</qualifiedTypeNameHistroy>

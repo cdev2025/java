@@ -1,0 +1,5 @@
+package LambdaEx;
+
+public interface MyFnInterface01 {
+
+}

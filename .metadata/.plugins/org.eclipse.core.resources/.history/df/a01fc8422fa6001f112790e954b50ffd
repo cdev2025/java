@@ -1,0 +1,22 @@
+package LambdaEx;
+
+public class MyFnInterfaceEx02 {
+public static void main(String[] args) {
+	MyFnInterface2 fi;
+	
+	fi = (x, y) -> {
+		return x+y;
+	}; 
+	System.out.println(fi.method(2, 5));
+	
+	fi = (x, y) -> x + y;
+	fi.method(10, 20);
+	
+	fi = () -> {System.out.println("method call03");};
+	fi.method();
+	
+	public static int sum(int x, int y) {
+		return x+y;
+	}
+}
+}
