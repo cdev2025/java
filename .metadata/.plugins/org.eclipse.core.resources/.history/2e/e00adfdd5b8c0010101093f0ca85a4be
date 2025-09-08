@@ -1,0 +1,12 @@
+package com.mycompany.test;
+
+import java.util.Optional;
+
+public class OptionalEx {
+
+	public static void main(String[] args) {
+		// 값이 없는 경우 (null 대체)
+		Optional<Integer> maybeNull = Optional.ofNullable(null);
+	}
+
+}
