@@ -12,7 +12,7 @@ public class Buffer {
 	// 데이터 생산 (버퍼에 넣기)
 	public synchronized void produce(int value) throws InterruptedException {
 		// 버퍼가 가득 찼으면 대기
-		while(queue.size()==LIMIT) {
+		while(queue.size()>=LIMIT) {
 			System.out.println("버퍼 FULL -> 생산자 대기");
 			wait(); // 소비자가 데이터를 꺼낼 때까지 대기
 		}
