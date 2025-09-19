@@ -1,5 +1,6 @@
 package com.example.board.repository;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,20 +24,17 @@ public class InMemoryPostRepository implements PostRepository {
 
 	@Override
 	public Optional<Post> findById(int id) {
-		// TODO Auto-generated method stub
-		return Optional.empty();
+		return Optional.ofNullable(store.get(id));
 	}
 
 	@Override
 	public boolean deleteById(int id) {
-		// TODO Auto-generated method stub
-		return false;
+		return store.remove(id) != null ;
 	}
 
 	@Override
 	public List<Post> findAll() {
-		// TODO Auto-generated method stub
-		return null;
+		return new ArrayList<>(store.values());
 	}
 
 }
